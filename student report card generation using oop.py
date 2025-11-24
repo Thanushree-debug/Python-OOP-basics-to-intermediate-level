@@ -31,7 +31,7 @@ class Student:
 
     def calculate_grade(self):
         print("grade : " , end=" ") 
-        percentage=self.calculate_avg()*100
+        percentage=self.calculate_avg()
         if percentage>=90:
             print("grade A")
 
@@ -61,3 +61,4 @@ a.add_marks("science" , 13)
 a.add_marks("physics" , 32)
 
 report_card.generate(a)
+
