@@ -5,10 +5,7 @@ class Student:
         self.__marks = marks
 
     def get_marks(self):
-        return self.__marks
-
-    def get_marks(self):
-        return self.__marks
+        return self.__marks
     
     def add_marks(self,subject , marks):
         self.__marks[subject]=marks
